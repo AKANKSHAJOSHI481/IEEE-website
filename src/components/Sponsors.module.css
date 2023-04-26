@@ -67,7 +67,7 @@
 
 .single_logo img {
   height: 100px;
-  width: 150px;
+  width: 200px;
   margin: 0 20px;
 }
 
@@ -79,6 +79,9 @@
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section_tittle h2 {
     font-size: 31px;
+  }
+  .single_logo img {
+    width: 150px;
   }
 }
 @media (max-width: 575px) {

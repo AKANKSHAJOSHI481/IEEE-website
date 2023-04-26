@@ -64,9 +64,9 @@ export default function Header() {
               ESDC
             </Navbar.Brand>
           </Link>
-          <div className={Styles.siteIdentity}>
+          {/* <div className={Styles.siteIdentity}>
             <a href="#"><img src={Sricity} alt="Site Name" /></a>
-          </div>  
+          </div>   */}
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav

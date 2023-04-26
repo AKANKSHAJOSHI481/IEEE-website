@@ -1,6 +1,7 @@
 import React from "react";
 import Styles from "../Styles/hero.module.css";
 import { Carousel } from "react-bootstrap";
+import Sricity from "../Images/IIITSricity.jpg"
 export default function Hero() {
   return (
     <section>
@@ -14,6 +15,11 @@ export default function Hero() {
             />
             <Carousel.Caption styles={{ paddingBottom: "0" }}>
               <div className={Styles.block}>
+              <img
+              style={{ width: "15vw"}}
+              src={Sricity}
+              alt="First slide"
+            />
               <h3>11th International Conference on ESDC </h3>
                 <h4>(Technically co-sponsored by IEEE) </h4>
                 <h4>
@@ -44,7 +50,7 @@ export default function Hero() {
             </Carousel.Caption>
           </div>
         </Carousel.Item>
-        
+
         <Carousel.Item>
           <div className={Styles.carouseitem}>
             <img
@@ -55,6 +61,11 @@ export default function Hero() {
 
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
+              <img
+              style={{ width: "13vw", marginBottom: "10px"}}
+              src={Sricity}
+              alt="First slide"
+            />
               <h3>11th International Conference on ESDC </h3>
                 <h4>(Technically co-sponsored by IEEE) </h4>
                 <h4>
@@ -90,6 +101,11 @@ export default function Hero() {
 
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
+              <img
+              style={{ width: "15vw"}}
+              src={Sricity}
+              alt="First slide"
+            />
               <h3>11th International Conference on ESDC </h3>
                 <h4>(Technically co-sponsored by IEEE) </h4>
                 <h4>
@@ -114,7 +130,7 @@ export default function Hero() {
             </Carousel.Caption>
           </div>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <div className={Styles.carouseitem}>
             <img
               className={"d-block w-100 " + Styles.heroImage}
@@ -147,7 +163,7 @@ export default function Hero() {
               </div>
             </Carousel.Caption>
           </div>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
     </section>
   );
